@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import Directory from './components/DirectoryComponent';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
               <NavbarBrand href='/'>Nucamp</NavbarBrand>
           </div>
       </Navbar>
+      <Directory/>
     </div>
   );
 }
